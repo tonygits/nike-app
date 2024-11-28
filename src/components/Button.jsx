@@ -1,11 +1,4 @@
-const Button = ({
-                    label,
-                    iconURL,
-                    backgroundColor,
-                    textColor,
-                    borderColor,
-                    fullWidth,
-                }) => {
+function Button({label, iconURL, backgroundColor, textColor, borderColor, fullWidth,}) {
     return (
         <button
             className={`flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none
